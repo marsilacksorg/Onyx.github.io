@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Onyx.UI</title> 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000; /* black background */
+      color: #eee; 
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .panel {
+      width: 90%;
+      max-width: 600px;
+      background: #111; /* dark panel */
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+      padding: 2rem;
+      box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #00FFFF; /* cyan header */
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin: 1.5rem 0 0.5rem;
+      border-bottom: 1px solid #003333; /* dark cyan */
+      padding-bottom: 0.3rem;
+      color: #33FFFF; /* light cyan */
+    }
+    p {
+      line-height: 1.4;
+      margin: 0.5rem 0;
+      color: #ccc;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+    }
+    .feature-list li {
+      margin: 0.6rem 0;
+      padding-left: 1.4rem;
+      position: relative;
+      color: #ddd;
+    }
+    .feature-list li::before {
+      content: '➤';
+      position: absolute;
+      left: 0;
+      color: #00FFFF; /* cyan bullet */
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.7rem 2rem;
+      background: #00FFFF; /* cyan button */
+      color: #111;
+      font-weight: bold;
+      text-decoration: none;
+      clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+      transition: background 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.4);
+    }
+    .btn:hover {
+      background: #00e6e6; /* darker cyan hover */
+      box-shadow: 0 6px 14px rgba(0, 230, 230, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Onyx UI</h1> 
+    <p><em>Fun And Easy To use.</em> The perfect mix of OP, Fun and Comp.</p>
+
+    <h2>Features</h2>
+    <ul class="feature-list">
+      <li>Settings - The fun easy way to customize to your liking.</li>
+      <li>Movement - For competitive games where you need to get an edge.</li>
+      <li>Visual - Get that custom look over the game.</li>
+      <li>Player - To customize and have fun with your player.</li>
+      <li>World - Make the gorilla world yours with custom objects and more.</li>
+      <li>Exploits - Take over lobbys with game-breaking mods.</li>
+      <li>Safety - Keep your self safe out there when your going to get banned/reported.</li>
+      <li>MusicPlayer - Don't have a SoundBoard not problem use our SS MusicPlayer to impot your custom sounds</li>
+    </ul>
+
+    <a href="molossalisnotbuyable" class="btn">Buy Now →</a>
+  </div>
+</body>
+</html>
